@@ -1,0 +1,29 @@
+name: Campaign lifecycle
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: assetparity-labs/assetparity-classic-adapter
+          path: assetparity-classic-adapter
+      - uses: actions/checkout@v4
+        with:
+          repository: assetparity-labs/assetparity-sac-adapter
+          path: assetparity-sac-adapter
+      - uses: actions/checkout@v4
+        with:
+          repository: assetparity-labs/assetparity-backend
+          path: assetparity-backend
+          ref: ${{ github.sha }}
+      - uses: actions/checkout@v4
+        with:
+          repository: assetparity-labs/assetparity-scenario-suite
+          path: assetparity-scenario-suite
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --test assetparity-backend/test.mjs
