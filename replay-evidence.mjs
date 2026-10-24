@@ -1,0 +1,2 @@
+import {readFile} from 'node:fs/promises';import assert from 'node:assert/strict';import {compare} from './compare.mjs';
+const e=JSON.parse(await readFile(new URL('./testnet-evidence.json',import.meta.url)));const report=compare(e);assert.equal(report.summary.mismatches,0);assert.equal(report.summary.cases,6);console.log(JSON.stringify({summary:report.summary,warning:'Offline comparison of recorded observations, not consensus authentication or root-cause equivalence'},null,2));

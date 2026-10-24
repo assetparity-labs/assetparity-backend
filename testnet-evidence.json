@@ -1,0 +1,797 @@
+{
+  "schema": 1,
+  "project": "AssetParity",
+  "network": "testnet",
+  "asset": {
+    "code": "PARITY",
+    "issuer": "GD5O6QOG7JDIRGT3JKE4BA3R3ROPGPX2Y6PZJNZVVA73WNQAB5NWD2YD"
+  },
+  "participants": {
+    "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+    "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+  },
+  "provenance": "Controlled faucet-funded public testnet pilot. Balance snapshots are Horizon observations taken across requests, not an atomic state proof.",
+  "transactions": [
+    {
+      "label": "Issuer authorization policy",
+      "hash": "b44f7ebefc79fe73b936f0b4e1ac937292edac4be44eea3f0f67754b4460270f",
+      "status": "SUCCESS",
+      "error": null,
+      "ledger": 5364837,
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAAD670HG+kaImntKicCDcdxc8z76x5+UtzWoP7s2AA9bYQAAAGQAUdxkAAAAAQAAAAEAAAAAAAAAAAAAAABq3LATAAAAAAAAAAEAAAAAAAAABQAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAPW2EAAABA7zum+v8Drf6Qty/eNXf8M/uuG4NsZYg3OYZw+/vwFJmvPKmMZj18aXVvWP7ye9ao5+eo8yOdVVNqaYJzWe3+AA==",
+      "resultXdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAFAAAAAAAAAAA="
+    },
+    {
+      "label": "Create sender trustline",
+      "hash": "4fd131dacff95fdf9cd4d1c2bb728cf2b99b6772cb3f2c379ceb2db83e531b32",
+      "status": "SUCCESS",
+      "error": null,
+      "ledger": 5364838,
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAAGQAUdxkAAAAAQAAAAEAAAAAAAAAAAAAAABq3LAUAAAAAAAAAAEAAAAAAAAABgAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAACVAvkAAAAAAAAAAABOVFcuwAAAED0fejZ0sxVqSo+CDq9ApfWM2D/HWt5q/CnC7tBsVBcZYBwP/CsvIXmCb7nz//A0tbzWObYHa1ENDku8EyC4J0F",
+      "resultXdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAGAAAAAAAAAAA="
+    },
+    {
+      "label": "Create recipient trustline",
+      "hash": "72c27fedc508d52b86de2af3ad8dcc524ae6fad1ac4851ce7a9155f58bade122",
+      "status": "SUCCESS",
+      "error": null,
+      "ledger": 5364839,
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAGQAUdxkAAAAAQAAAAEAAAAAAAAAAAAAAABq3LAZAAAAAAAAAAEAAAAAAAAABgAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAACVAvkAAAAAAAAAAAB9oC/8AAAAED8gN2nYYTiT/kbvSlWvs+ZPUT3QkbaS6xaAsm/29j7TExzoh85k0yQMNGFxdRO4pa8dLuwV7fp7IyAosuCh/0F",
+      "resultXdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAGAAAAAAAAAAA="
+    },
+    {
+      "label": "Authorize transfer participants",
+      "hash": "968103aa1735e3a7e9bc80d164176063893bbbbc4fb33c185999fa989eb6841d",
+      "status": "SUCCESS",
+      "error": null,
+      "ledger": 5364840,
+      "feeChargedStroops": "200",
+      "envelopeXdr": "AAAAAgAAAAD670HG+kaImntKicCDcdxc8z76x5+UtzWoP7s2AA9bYQAAAMgAUdxkAAAAAgAAAAEAAAAAAAAAAAAAAABq3LAeAAAAAAAAAAIAAAAAAAAAFQAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAAAAAAAAQAAAAAAAAAVAAAAACd0+sATaZr2DB6UYRq4XGPrWrWyo0kWU7UA2Rz2gL/wAAAAAlBBUklUWQAAAAAAAAAAAAD670HG+kaImntKicCDcdxc8z76x5+UtzWoP7s2AA9bYQAAAAAAAAABAAAAAAAAAAEAD1thAAAAQMhDDbC742ip15RWAHQZjinuT8HFi+53XKjNWn9Q8AnjG6/L0fI+qQ/eutRTwPy3ZHtRA/SQsHxTXSt3gzf7eAA=",
+      "resultXdr": "AAAAAAAAAMgAAAAAAAAAAgAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAAAA="
+    },
+    {
+      "label": "Issue disposable test asset",
+      "hash": "95d433679164d102b8f30aa5c6ba9106c375cc9f7ceaa67536bc37a83721ae5a",
+      "status": "SUCCESS",
+      "error": null,
+      "ledger": 5364841,
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAAD670HG+kaImntKicCDcdxc8z76x5+UtzWoP7s2AA9bYQAAAGQAUdxkAAAAAwAAAAEAAAAAAAAAAAAAAABq3LAjAAAAAAAAAAEAAAAAAAAAAQAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAAAC+vCAAAAAAAAAAABAA9bYQAAAECvHIFNmF1pXQ5lxeA95x2DqfQ8+msZiOmyVysTZI9oTG2q5v5zghref/ZVibVjv48pkKmtAmEybs/CX/Zo2OUB",
+      "resultXdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA="
+    },
+    {
+      "label": "Deploy built-in asset contract",
+      "hash": "f325178c27deab35ecca1061b25d445b5b7aa6802b8f111c30f300ec01afd87b",
+      "status": "SUCCESS",
+      "ledger": 5364842,
+      "feeChargedStroops": "14468132",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwD+GU0AUdxkAAAAAgAAAAEAAAAAAAAAAAAAAABq3LAoAAAAAAAAAAEAAAAAAAAAGAAAAAEAAAABAAAAAlBBUklUWQAAAAAAAAAAAAD670HG+kaImntKicCDcdxc8z76x5+UtzWoP7s2AA9bYQAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAYAAAABNQvGb+Mnc8VuK3OQ2VRdtyq+kJ91P8In7pJjkttRQ0IAAAAUAAAAAQACtoEAAAAAAAAB6AAAAAAA/fI9AAAAATlRXLsAAABA40RWmQ7PFiPXamBGPji2D/9BCKup/Af45PiRQrIWVyQ8oNyn6m55MAm8Bzn4/SyiKoVosPch0gxhy3tT8sFgDw==",
+      "resultXdr": "AAAAAADcxCQAAAAAAAAAAQAAAAAAAAAYAAAAAFcDCn5HBIwQ6EPNoYxAZ+s0RSQCJwBWX24Atw55/JZMAAAAAA=="
+    },
+    {
+      "label": "Classic fractional-transfer",
+      "hash": "0790da67d87beab412b2c88ec76a4c5409b949c9d179e75260b04a98e4b6cfd0",
+      "status": "SUCCESS",
+      "error": null,
+      "ledger": 5364843,
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAAGQAUdxkAAAAAwAAAAEAAAAAAAAAAAAAAABq3LAvAAAAAAAAAAEAAAABAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAAQAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAAAALxhTgAAAAAAAAABOVFcuwAAAEAS9Ce2U2z/Z4Skwh8LnBK80lxfHoGSpRRxOzz4SmcaAy8Q7m/sqicdb1KcuHoncG0H+kpL9PMGfCciRstD0eQH",
+      "resultXdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA="
+    },
+    {
+      "label": "SAC fractional-transfer",
+      "hash": "c77707bbc4a9905d7a9b5134d0cb4a5373435838f86eb0f5e43448c077ec8e9a",
+      "status": "SUCCESS",
+      "ledger": 5364844,
+      "feeChargedStroops": "7291",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAVkYAUdxkAAAABAAAAAEAAAAAAAAAAAAAAABq3LAzAAAAAAAAAAEAAAAAAAAAGAAAAAAAAAABNQvGb+Mnc8VuK3OQ2VRdtyq+kJ91P8In7pJjkttRQ0IAAAAIdHJhbnNmZXIAAAADAAAAEgAAAAAAAAAArwM3q2qMofyo2CpuPWjBfelDtZy5M8fHWfyWdzlRXLsAAAASAAAAAAAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAoAAAAAAAAAAAAAAAAAvGFOAAAAAQAAAAAAAAAAAAAAATULxm/jJ3PFbitzkNlUXbcqvpCfdT/CJ+6SY5LbUUNCAAAACHRyYW5zZmVyAAAAAwAAABIAAAAAAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAEgAAAAAAAAAAJ3T6wBNpmvYMHpRhGrhcY+tatbKjSRZTtQDZHPaAv/AAAAAKAAAAAAAAAAAAAAAAALxhTgAAAAAAAAABAAAAAAAAAAEAAAAGAAAAATULxm/jJ3PFbitzkNlUXbcqvpCfdT/CJ+6SY5LbUUNCAAAAFAAAAAEAAAACAAAAAQAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAABAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAAlBBUklUWQAAAAAAAAAAAAD670HG+kaImntKicCDcdxc8z76x5+UtzWoP7s2AA9bYQADr4AAAAD4AAAA+AAAAAAAAC82AAAAATlRXLsAAABAxYtFG6OJCwDjIDUiHcaXfhUCxnhU4pYJ0NjeshWqUu/Ika2GNgbwSbTGh+7AMNg2YtDPb3f7qs+UBvxsPAXkCA==",
+      "resultXdr": "AAAAAAAAHHsAAAAAAAAAAQAAAAAAAAAYAAAAAEP4PM7uun1sogXayfP6DEf39EBpnPdyMBfqretSsK/YAAAAAA=="
+    },
+    {
+      "label": "Classic one-stroop",
+      "hash": "53662edcae1272825f3a39594e934b58f88eef93f387badd6828de9c7f788ea3",
+      "status": "SUCCESS",
+      "error": null,
+      "ledger": 5364846,
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAAGQAUdxkAAAABQAAAAEAAAAAAAAAAAAAAABq3LA6AAAAAAAAAAEAAAABAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAAQAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAAAAAAAAQAAAAAAAAABOVFcuwAAAECknxTwAhMra9bEdx5ItsmcEK79d7zoKJ//n4yV0jH5SsxoIwGq1q3r+GRTjuX5iHMjmHf1RiK6ReRhvqXxNV8I",
+      "resultXdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA="
+    },
+    {
+      "label": "SAC one-stroop",
+      "hash": "1179271fd2157ca781af598fb1e986d265f41c9ff2a21ddbc34d0a388a79ab35",
+      "status": "SUCCESS",
+      "ledger": 5364847,
+      "feeChargedStroops": "7291",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAVkYAUdxkAAAABgAAAAEAAAAAAAAAAAAAAABq3LBEAAAAAAAAAAEAAAAAAAAAGAAAAAAAAAABNQvGb+Mnc8VuK3OQ2VRdtyq+kJ91P8In7pJjkttRQ0IAAAAIdHJhbnNmZXIAAAADAAAAEgAAAAAAAAAArwM3q2qMofyo2CpuPWjBfelDtZy5M8fHWfyWdzlRXLsAAAASAAAAAAAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAoAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAATULxm/jJ3PFbitzkNlUXbcqvpCfdT/CJ+6SY5LbUUNCAAAACHRyYW5zZmVyAAAAAwAAABIAAAAAAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAEgAAAAAAAAAAJ3T6wBNpmvYMHpRhGrhcY+tatbKjSRZTtQDZHPaAv/AAAAAKAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAGAAAAATULxm/jJ3PFbitzkNlUXbcqvpCfdT/CJ+6SY5LbUUNCAAAAFAAAAAEAAAACAAAAAQAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAABAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAAlBBUklUWQAAAAAAAAAAAAD670HG+kaImntKicCDcdxc8z76x5+UtzWoP7s2AA9bYQADr4AAAAD4AAAA+AAAAAAAAC82AAAAATlRXLsAAABAmqDN+Fr9+/wsvBxUYntoY5jQRWoivzhJNgKdIxpKKAeGi00luMGuGXMMVIfBBhv4AJJ12xnMNex/6y4j88x8CQ==",
+      "resultXdr": "AAAAAAAAHHsAAAAAAAAAAQAAAAAAAAAYAAAAAGaw7E59DKFq31ClKxKXvMgHTuZISdJX3+rXo0H5H5SYAAAAAA=="
+    },
+    {
+      "label": "Classic insufficient-balance",
+      "hash": "8410d0dd61049d7aadfca775f12fdc66a4043fa1d32c3efc399fc132bdc917fe",
+      "status": "FAILED",
+      "error": "op_line_full",
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAAGQAUdxkAAAABwAAAAEAAAAAAAAAAAAAAABq3LBIAAAAAAAAAAEAAAABAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAAQAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAACVAvkAAAAAAAAAAABOVFcuwAAAEAujCi/YN8b7OaYzRBMmbc2meCFAHa8lpr4v2zvZKUMlI3OZ9X1i7tRW/sp9UeRF8TGPmsWrOQCvFQ8VDqcZfUM",
+      "resultXdr": "AAAAAAAAAGT/////AAAAAQAAAAAAAAAB////+AAAAAA="
+    },
+    {
+      "label": "Revoke recipient authorization",
+      "hash": "3424647b1dafba316d62775b1866d685d089092d2608cdae21ece2e7045ed272",
+      "status": "SUCCESS",
+      "error": null,
+      "ledger": 5364849,
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAAD670HG+kaImntKicCDcdxc8z76x5+UtzWoP7s2AA9bYQAAAGQAUdxkAAAABAAAAAEAAAAAAAAAAAAAAABq3LBOAAAAAAAAAAEAAAAAAAAAFQAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAABAAAAAAAAAAAAAAABAA9bYQAAAEC/HyG4+N5PlOSP/xEdHfwnBisvDem1iTcM8+NpK0PQ3PS0TsNJ9FZWesUeHOiBmkAt/kRVHQQ6faPU4mMv4wgE",
+      "resultXdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAVAAAAAAAAAAA="
+    },
+    {
+      "label": "Classic unauthorized-recipient",
+      "hash": "02fed43c09fcd78cbeb9315edf47636191494fd1ce3fcfd10d85dd26b8840d4c",
+      "status": "FAILED",
+      "error": "op_not_authorized",
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAAGQAUdxkAAAACAAAAAEAAAAAAAAAAAAAAABq3LBRAAAAAAAAAAEAAAABAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAAQAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAAAAAAAAQAAAAAAAAABOVFcuwAAAECb+NCcc8wuxoxvI50ZTCEu0wSvPhvz33nzDrrl/wcY9MSVXDsuy90UHmk+odwYJKB7at42NXKD/V9s4XHhbSsP",
+      "resultXdr": "AAAAAAAAAGT/////AAAAAQAAAAAAAAAB////+QAAAAA="
+    },
+    {
+      "label": "Classic missing-trustline",
+      "hash": "53e870b58b69906806772d203cb21811c5feb723be5d4377265a668ce51575b3",
+      "status": "FAILED",
+      "error": "op_no_trust",
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAAGQAUdxkAAAACQAAAAEAAAAAAAAAAAAAAABq3LBcAAAAAAAAAAEAAAABAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAAQAAAABWRcfVehX6W/RP+VnHj7nY91pTMTy0HxTXePDepbcUyAAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAAAAAAAAQAAAAAAAAABOVFcuwAAAECIK3EiMRtGHbB/IVY3qjmoUibnegUviWweEswTDFTKLu/ClB8koDAMrrvBtpDx6UVKBT/ZF/ofytuBW3beQ7IA",
+      "resultXdr": "AAAAAAAAAGT/////AAAAAQAAAAAAAAAB////+gAAAAA="
+    },
+    {
+      "label": "Reauthorize recipient to isolate underfunding",
+      "hash": "1e5ca0f1553bbedaa2296b89bb97486a785cdcacf928f08583b20b5283c5b035",
+      "status": "SUCCESS",
+      "error": null,
+      "ledger": 5364863,
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAAD670HG+kaImntKicCDcdxc8z76x5+UtzWoP7s2AA9bYQAAAGQAUdxkAAAABQAAAAEAAAAAAAAAAAAAAABq3LCRAAAAAAAAAAEAAAAAAAAAFQAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAAAAAAAAQAAAAAAAAABAA9bYQAAAEAgFaH/bY9+IkCyCsoK430TCrZIhz1uRWZNfhVIT7zP79B1mfydO+7iKA427x9tvJFznVVDbig9Vka2UFxgoaEK",
+      "resultXdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAVAAAAAAAAAAA="
+    },
+    {
+      "label": "Classic insufficient-balance",
+      "hash": "3b15bc802ce2959f84b0400a44e8f76e5e2924f6b3052ecde6c7c6a7b0085dc5",
+      "status": "FAILED",
+      "error": "op_underfunded",
+      "feeChargedStroops": "100",
+      "envelopeXdr": "AAAAAgAAAACvAzeraoyh/KjYKm49aMF96UO1nLkzx8dZ/JZ3OVFcuwAAAGQAUdxkAAAACgAAAAEAAAAAAAAAAAAAAABq3LCXAAAAAAAAAAEAAAABAAAAAK8DN6tqjKH8qNgqbj1owX3pQ7WcuTPHx1n8lnc5UVy7AAAAAQAAAAAndPrAE2ma9gwelGEauFxj61q1sqNJFlO1ANkc9oC/8AAAAAJQQVJJVFkAAAAAAAAAAAAA+u9BxvpGiJp7SonAg3HcXPM++seflLc1qD+7NgAPW2EAAAAAO5rKAAAAAAAAAAABOVFcuwAAAEDimk6h+JhdwQNhFCXefNAbec4qnmyZtWne2TfNOZmu9PHxKbVRA9Pj7xF33+ntR+4+cKF8MTv6yHpzKDyCdZQH",
+      "resultXdr": "AAAAAAAAAGT/////AAAAAQAAAAAAAAAB/////gAAAAA="
+    }
+  ],
+  "cases": [
+    {
+      "id": "fractional-transfer",
+      "amountUnits": "12345678",
+      "classic": {
+        "kind": "transaction",
+        "status": "SUCCESS",
+        "error": null,
+        "before": {
+          "sender": "200000000",
+          "recipient": "0"
+        },
+        "after": {
+          "sender": "187654322",
+          "recipient": "12345678"
+        },
+        "feeChargedStroops": "100",
+        "transactionHash": "0790da67d87beab412b2c88ec76a4c5409b949c9d179e75260b04a98e4b6cfd0",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "sac": {
+        "kind": "transaction",
+        "status": "SUCCESS",
+        "before": {
+          "sender": "187654322",
+          "recipient": "12345678"
+        },
+        "after": {
+          "sender": "175308644",
+          "recipient": "24691356"
+        },
+        "feeChargedStroops": "7291",
+        "transactionHash": "c77707bbc4a9905d7a9b5134d0cb4a5373435838f86eb0f5e43448c077ec8e9a",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "participants": {
+        "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      }
+    },
+    {
+      "id": "one-stroop",
+      "amountUnits": "1",
+      "classic": {
+        "kind": "transaction",
+        "status": "SUCCESS",
+        "error": null,
+        "before": {
+          "sender": "175308644",
+          "recipient": "24691356"
+        },
+        "after": {
+          "sender": "175308643",
+          "recipient": "24691357"
+        },
+        "feeChargedStroops": "100",
+        "transactionHash": "53662edcae1272825f3a39594e934b58f88eef93f387badd6828de9c7f788ea3",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "sac": {
+        "kind": "transaction",
+        "status": "SUCCESS",
+        "before": {
+          "sender": "175308643",
+          "recipient": "24691357"
+        },
+        "after": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "feeChargedStroops": "7291",
+        "transactionHash": "1179271fd2157ca781af598fb1e986d265f41c9ff2a21ddbc34d0a388a79ab35",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "participants": {
+        "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      }
+    },
+    {
+      "id": "balance-constraint-order",
+      "amountUnits": "10000000000",
+      "classic": {
+        "kind": "transaction",
+        "status": "FAILED",
+        "error": "op_line_full",
+        "before": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "after": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "feeChargedStroops": "100",
+        "transactionHash": "8410d0dd61049d7aadfca775f12fdc66a4043fa1d32c3efc399fc132bdc917fe",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "sac": {
+        "kind": "simulation",
+        "status": "REJECTED",
+        "errorCode": 10,
+        "error": "HostError: Error(Contract, #10)\n\nEvent log (newest first):\n   0: [Diagnostic Event] contract:CA2QXRTP4MTXHRLOFNZZBWKULW3SVPUQT52T7QRH52JGHEW3KFBUFAJ2, topics:[error, Error(Contract, #10)], data:[\"resulting balance is not within the allowed range\", 0, -9824691358, 10000000000]\n   1: [Diagnostic Event] topics:[fn_call, CA2QXRTP4MTXHRLOFNZZBWKULW3SVPUQT52T7QRH52JGHEW3KFBUFAJ2, transfer], data:[GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y, GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y, 10000000000]\n",
+        "before": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "after": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "feeChargedStroops": null,
+        "simulationLedger": 5364848,
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "note": "Classic reports destination line-full; SAC reports broad BalanceError. Both reject, but root-cause equivalence is not claimed.",
+      "participants": {
+        "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      }
+    },
+    {
+      "id": "unauthorized-recipient",
+      "amountUnits": "1",
+      "classic": {
+        "kind": "transaction",
+        "status": "FAILED",
+        "error": "op_not_authorized",
+        "before": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "after": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "feeChargedStroops": "100",
+        "transactionHash": "02fed43c09fcd78cbeb9315edf47636191494fd1ce3fcfd10d85dd26b8840d4c",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "sac": {
+        "kind": "simulation",
+        "status": "REJECTED",
+        "errorCode": 11,
+        "error": "HostError: Error(Contract, #11)\n\nEvent log (newest first):\n   0: [Diagnostic Event] contract:CA2QXRTP4MTXHRLOFNZZBWKULW3SVPUQT52T7QRH52JGHEW3KFBUFAJ2, topics:[error, Error(Contract, #11)], data:\"balance is deauthorized\"\n   1: [Diagnostic Event] topics:[fn_call, CA2QXRTP4MTXHRLOFNZZBWKULW3SVPUQT52T7QRH52JGHEW3KFBUFAJ2, transfer], data:[GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y, GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y, 1]\n",
+        "before": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "after": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "feeChargedStroops": null,
+        "simulationLedger": 5364851,
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "participants": {
+        "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      }
+    },
+    {
+      "id": "missing-trustline",
+      "amountUnits": "1",
+      "classic": {
+        "kind": "transaction",
+        "status": "FAILED",
+        "error": "op_no_trust",
+        "before": {
+          "sender": "175308642",
+          "recipient": null
+        },
+        "after": {
+          "sender": "175308642",
+          "recipient": null
+        },
+        "feeChargedStroops": "100",
+        "transactionHash": "53e870b58b69906806772d203cb21811c5feb723be5d4377265a668ce51575b3",
+        "recipient": "GBLELR6VPIK7UW7UJ74VTR4PXHMPOWSTGE6LIHYU254PBXVFW4KMR6HV"
+      },
+      "sac": {
+        "kind": "simulation",
+        "status": "REJECTED",
+        "errorCode": 13,
+        "error": "HostError: Error(Contract, #13)\n\nEvent log (newest first):\n   0: [Diagnostic Event] contract:CA2QXRTP4MTXHRLOFNZZBWKULW3SVPUQT52T7QRH52JGHEW3KFBUFAJ2, topics:[error, Error(Contract, #13)], data:[\"trustline entry is missing for account\", GBLELR6VPIK7UW7UJ74VTR4PXHMPOWSTGE6LIHYU254PBXVFW4KMR6HV]\n   1: [Diagnostic Event] topics:[fn_call, CA2QXRTP4MTXHRLOFNZZBWKULW3SVPUQT52T7QRH52JGHEW3KFBUFAJ2, transfer], data:[GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y, GBLELR6VPIK7UW7UJ74VTR4PXHMPOWSTGE6LIHYU254PBXVFW4KMR6HV, 1]\n",
+        "before": {
+          "sender": "175308642",
+          "recipient": null
+        },
+        "after": {
+          "sender": "175308642",
+          "recipient": null
+        },
+        "feeChargedStroops": null,
+        "simulationLedger": 5364852,
+        "recipient": "GBLELR6VPIK7UW7UJ74VTR4PXHMPOWSTGE6LIHYU254PBXVFW4KMR6HV"
+      },
+      "participants": {
+        "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+        "recipient": "GBLELR6VPIK7UW7UJ74VTR4PXHMPOWSTGE6LIHYU254PBXVFW4KMR6HV"
+      }
+    },
+    {
+      "id": "insufficient-balance",
+      "participants": {
+        "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "amountUnits": "1000000000",
+      "classic": {
+        "kind": "transaction",
+        "status": "FAILED",
+        "error": "op_underfunded",
+        "before": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "after": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "feeChargedStroops": "100",
+        "transactionHash": "3b15bc802ce2959f84b0400a44e8f76e5e2924f6b3052ecde6c7c6a7b0085dc5",
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      },
+      "sac": {
+        "kind": "simulation",
+        "status": "REJECTED",
+        "errorCode": 10,
+        "error": "HostError: Error(Contract, #10)\n\nEvent log (newest first):\n   0: [Diagnostic Event] contract:CA2QXRTP4MTXHRLOFNZZBWKULW3SVPUQT52T7QRH52JGHEW3KFBUFAJ2, topics:[error, Error(Contract, #10)], data:[\"resulting balance is not within the allowed range\", 0, -824691358, 10000000000]\n   1: [Diagnostic Event] topics:[fn_call, CA2QXRTP4MTXHRLOFNZZBWKULW3SVPUQT52T7QRH52JGHEW3KFBUFAJ2, transfer], data:[GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y, GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y, 1000000000]\n",
+        "before": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "after": {
+          "sender": "175308642",
+          "recipient": "24691358"
+        },
+        "feeChargedStroops": null,
+        "simulationLedger": 5364865,
+        "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+      }
+    }
+  ],
+  "steps": [
+    "issuer-policy",
+    "trust-sender",
+    "trust-recipient",
+    "authorize",
+    "seed",
+    "sac",
+    "deauthorize",
+    "reauthorize-isolation"
+  ],
+  "sacId": "CA2QXRTP4MTXHRLOFNZZBWKULW3SVPUQT52T7QRH52JGHEW3KFBUFAJ2",
+  "sacExecutableVerified": true,
+  "verifiedAt": "2026-10-24T13:18:33.890Z",
+  "comparison": {
+    "schema": 1,
+    "idHash": "bbc1b236f98433c7799114f00b8cfb88e19ab596b970100cc4e1159a11a83e8d",
+    "network": "testnet",
+    "asset": {
+      "code": "PARITY",
+      "issuer": "GD5O6QOG7JDIRGT3JKE4BA3R3ROPGPX2Y6PZJNZVVA73WNQAB5NWD2YD"
+    },
+    "participants": {
+      "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+      "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+    },
+    "provenance": "Controlled faucet-funded public testnet pilot. Balance snapshots are Horizon observations taken across requests, not an atomic state proof.",
+    "observationsAuthenticated": false,
+    "rows": [
+      {
+        "id": "fractional-transfer",
+        "participants": {
+          "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+          "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+        },
+        "amountUnits": "12345678",
+        "classic": {
+          "kind": "transaction",
+          "success": true,
+          "category": "OK",
+          "rawError": null,
+          "before": {
+            "sender": "200000000",
+            "recipient": "0"
+          },
+          "after": {
+            "sender": "187654322",
+            "recipient": "12345678"
+          },
+          "feeChargedStroops": "100"
+        },
+        "sac": {
+          "kind": "transaction",
+          "success": true,
+          "category": "OK",
+          "rawError": null,
+          "before": {
+            "sender": "187654322",
+            "recipient": "12345678"
+          },
+          "after": {
+            "sender": "175308644",
+            "recipient": "24691356"
+          },
+          "feeChargedStroops": "7291"
+        },
+        "classicConforms": true,
+        "sacConforms": true,
+        "matchingOutcome": true,
+        "parity": true,
+        "scope": "Issued asset, distinct non-issuer G-account sender/recipient; input observations are not authenticated",
+        "differences": {
+          "execution": "transaction vs transaction",
+          "feesCompared": false,
+          "feeNote": "Asset balance parity excludes native XLM fees; simulations have no charged fee"
+        },
+        "deltas": {
+          "classic": {
+            "sender": "-12345678",
+            "recipient": "12345678"
+          },
+          "sac": {
+            "sender": "-12345678",
+            "recipient": "12345678"
+          }
+        }
+      },
+      {
+        "id": "one-stroop",
+        "participants": {
+          "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+          "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+        },
+        "amountUnits": "1",
+        "classic": {
+          "kind": "transaction",
+          "success": true,
+          "category": "OK",
+          "rawError": null,
+          "before": {
+            "sender": "175308644",
+            "recipient": "24691356"
+          },
+          "after": {
+            "sender": "175308643",
+            "recipient": "24691357"
+          },
+          "feeChargedStroops": "100"
+        },
+        "sac": {
+          "kind": "transaction",
+          "success": true,
+          "category": "OK",
+          "rawError": null,
+          "before": {
+            "sender": "175308643",
+            "recipient": "24691357"
+          },
+          "after": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "feeChargedStroops": "7291"
+        },
+        "classicConforms": true,
+        "sacConforms": true,
+        "matchingOutcome": true,
+        "parity": true,
+        "scope": "Issued asset, distinct non-issuer G-account sender/recipient; input observations are not authenticated",
+        "differences": {
+          "execution": "transaction vs transaction",
+          "feesCompared": false,
+          "feeNote": "Asset balance parity excludes native XLM fees; simulations have no charged fee"
+        },
+        "deltas": {
+          "classic": {
+            "sender": "-1",
+            "recipient": "1"
+          },
+          "sac": {
+            "sender": "-1",
+            "recipient": "1"
+          }
+        }
+      },
+      {
+        "id": "balance-constraint-order",
+        "participants": {
+          "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+          "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+        },
+        "amountUnits": "10000000000",
+        "classic": {
+          "kind": "transaction",
+          "success": false,
+          "category": "BALANCE_CONSTRAINT",
+          "rawError": "op_line_full",
+          "before": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "after": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "feeChargedStroops": "100"
+        },
+        "sac": {
+          "kind": "simulation",
+          "success": false,
+          "category": "BALANCE_CONSTRAINT",
+          "rawError": 10,
+          "before": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "after": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "feeChargedStroops": null
+        },
+        "classicConforms": true,
+        "sacConforms": true,
+        "matchingOutcome": true,
+        "parity": true,
+        "scope": "Issued asset, distinct non-issuer G-account sender/recipient; input observations are not authenticated",
+        "differences": {
+          "execution": "transaction vs simulation",
+          "feesCompared": false,
+          "feeNote": "Asset balance parity excludes native XLM fees; simulations have no charged fee"
+        },
+        "deltas": {
+          "classic": {
+            "sender": "0",
+            "recipient": "0"
+          },
+          "sac": {
+            "sender": "0",
+            "recipient": "0"
+          }
+        }
+      },
+      {
+        "id": "unauthorized-recipient",
+        "participants": {
+          "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+          "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+        },
+        "amountUnits": "1",
+        "classic": {
+          "kind": "transaction",
+          "success": false,
+          "category": "NOT_AUTHORIZED",
+          "rawError": "op_not_authorized",
+          "before": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "after": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "feeChargedStroops": "100"
+        },
+        "sac": {
+          "kind": "simulation",
+          "success": false,
+          "category": "NOT_AUTHORIZED",
+          "rawError": 11,
+          "before": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "after": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "feeChargedStroops": null
+        },
+        "classicConforms": true,
+        "sacConforms": true,
+        "matchingOutcome": true,
+        "parity": true,
+        "scope": "Issued asset, distinct non-issuer G-account sender/recipient; input observations are not authenticated",
+        "differences": {
+          "execution": "transaction vs simulation",
+          "feesCompared": false,
+          "feeNote": "Asset balance parity excludes native XLM fees; simulations have no charged fee"
+        },
+        "deltas": {
+          "classic": {
+            "sender": "0",
+            "recipient": "0"
+          },
+          "sac": {
+            "sender": "0",
+            "recipient": "0"
+          }
+        }
+      },
+      {
+        "id": "missing-trustline",
+        "participants": {
+          "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+          "recipient": "GBLELR6VPIK7UW7UJ74VTR4PXHMPOWSTGE6LIHYU254PBXVFW4KMR6HV"
+        },
+        "amountUnits": "1",
+        "classic": {
+          "kind": "transaction",
+          "success": false,
+          "category": "MISSING_TRUSTLINE",
+          "rawError": "op_no_trust",
+          "before": {
+            "sender": "175308642",
+            "recipient": null
+          },
+          "after": {
+            "sender": "175308642",
+            "recipient": null
+          },
+          "feeChargedStroops": "100"
+        },
+        "sac": {
+          "kind": "simulation",
+          "success": false,
+          "category": "MISSING_TRUSTLINE",
+          "rawError": 13,
+          "before": {
+            "sender": "175308642",
+            "recipient": null
+          },
+          "after": {
+            "sender": "175308642",
+            "recipient": null
+          },
+          "feeChargedStroops": null
+        },
+        "classicConforms": true,
+        "sacConforms": true,
+        "matchingOutcome": true,
+        "parity": true,
+        "scope": "Issued asset, distinct non-issuer G-account sender/recipient; input observations are not authenticated",
+        "differences": {
+          "execution": "transaction vs simulation",
+          "feesCompared": false,
+          "feeNote": "Asset balance parity excludes native XLM fees; simulations have no charged fee"
+        },
+        "deltas": {
+          "classic": {
+            "sender": "0",
+            "recipient": null
+          },
+          "sac": {
+            "sender": "0",
+            "recipient": null
+          }
+        }
+      },
+      {
+        "id": "insufficient-balance",
+        "participants": {
+          "sender": "GCXQGN5LNKGKD7FI3AVG4PLIYF66SQ5VTS4THR6HLH6JM5ZZKFOLXC7Y",
+          "recipient": "GATXJ6WACNUZV5QMD2KGCGVYLRR6WWVVWKRUSFSTWUANSHHWQC77A33Y"
+        },
+        "amountUnits": "1000000000",
+        "classic": {
+          "kind": "transaction",
+          "success": false,
+          "category": "BALANCE_CONSTRAINT",
+          "rawError": "op_underfunded",
+          "before": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "after": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "feeChargedStroops": "100"
+        },
+        "sac": {
+          "kind": "simulation",
+          "success": false,
+          "category": "BALANCE_CONSTRAINT",
+          "rawError": 10,
+          "before": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "after": {
+            "sender": "175308642",
+            "recipient": "24691358"
+          },
+          "feeChargedStroops": null
+        },
+        "classicConforms": true,
+        "sacConforms": true,
+        "matchingOutcome": true,
+        "parity": true,
+        "scope": "Issued asset, distinct non-issuer G-account sender/recipient; input observations are not authenticated",
+        "differences": {
+          "execution": "transaction vs simulation",
+          "feesCompared": false,
+          "feeNote": "Asset balance parity excludes native XLM fees; simulations have no charged fee"
+        },
+        "deltas": {
+          "classic": {
+            "sender": "0",
+            "recipient": "0"
+          },
+          "sac": {
+            "sender": "0",
+            "recipient": "0"
+          }
+        }
+      }
+    ],
+    "summary": {
+      "cases": 6,
+      "matching": 6,
+      "mismatches": 0
+    }
+  }
+}

@@ -1,0 +1,1 @@
+import {mkdir} from 'node:fs/promises';import {createServer} from './index.mjs';await mkdir(new URL('./data/',import.meta.url),{recursive:true});const databasePath=new URL('./data/campaigns.sqlite',import.meta.url).pathname;createServer({databasePath}).listen(4381,'127.0.0.1',()=>console.log('AssetParity campaign service http://127.0.0.1:4381'));
